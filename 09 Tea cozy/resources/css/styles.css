@@ -1,0 +1,160 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+span {
+  font-family: helvetica;
+  font-size: 22px;
+  font-weight: normal;
+  opacity: 1.0
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav {
+  font-family: helvetica;
+  text-align: right;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.main_content {
+  padding-top: 69px;
+  margin: auto;
+  width: 1200px;
+}
+
+.hero {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero_content {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.tea_month {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.item span {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.location_module {
+  display: flex;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 70px;
+
+}
+
+.location {
+  margin: 0 20px;
+  width: 300px;
+  background-color: black;
+  flex-basis: 280px;
+  display: inline-block;
+  flex-direction: column;
+  opacity: 1.0;
+}
+
+.contact_info {
+  display: flex;
+  text-align: center;
+  margin: 0;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.tea_month {
+  margin-bottom: 60px;
+}
+
+.location_header h2 {
+  padding-bottom: 15px;
+}
+
+.contact {
+  height: 200px;
+}
